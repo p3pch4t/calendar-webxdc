@@ -1,0 +1,21 @@
+{
+	// A11y doesn't play nicely with custom components, and we use @material/web :/
+	"svelte.plugin.svelte.compilerWarnings": {
+		"a11y-no-static-element-interactions": "ignore",
+		"a11y-click-events-have-key-events": "ignore",
+		"a11y-no-noninteractive-element-interactions": "ignore",
+		"a11y-label-has-associated-control": "ignore"
+	},
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
