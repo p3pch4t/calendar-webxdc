@@ -2,7 +2,7 @@
 	import type { Readable } from "svelte/store";
 
 	import "@material/web/fab/fab";
-	import DeleteIcon from "$lib/components/icons/DeleteIcon.svelte";
+	import DeleteIcon from "~icons/material-symbols/delete-rounded";
 
 	import type { ComputedCalendarEvent } from "$lib/calendars";
 	import CalendarEventDeleteDialog from "../dialogs/CalendarEventDeleteDialog.svelte";

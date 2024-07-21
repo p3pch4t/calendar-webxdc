@@ -12,7 +12,7 @@
 	import { type MdFilledTextField } from "@material/web/textfield/filled-text-field";
 	import "@material/web/checkbox/checkbox";
 	import { type MdDialog } from "@material/web/dialog/dialog";
-	import EventIcon from "$lib/components/icons/EventIcon.svelte";
+	import EventIcon from "~icons/material-symbols/event-rounded";
 
 	import Menu from "$lib/components/Menu.svelte";
 	import MenuItem from "$lib/components/MenuItem.svelte";

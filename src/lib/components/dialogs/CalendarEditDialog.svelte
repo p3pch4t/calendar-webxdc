@@ -7,7 +7,7 @@
 	import "@material/web/button/text-button";
 	import "@material/web/button/filled-tonal-button";
 	import "@material/web/textfield/outlined-text-field";
-	import EditIcon from "$lib/components/icons/EditIcon.svelte";
+	import EditIcon from "~icons/material-symbols/edit-rounded";
 
 	import type { Calendar, CalendarChanges } from "$lib/calendars";
 	import { bindValue } from "$lib/actions/bindValue";

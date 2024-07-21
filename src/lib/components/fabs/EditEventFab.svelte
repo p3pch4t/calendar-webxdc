@@ -2,7 +2,7 @@
 	import type { Readable } from "svelte/store";
 
 	import "@material/web/fab/fab";
-	import EditIcon from "$lib/components/icons/EditIcon.svelte";
+	import EditIcon from "~icons/material-symbols/edit-rounded";
 
 	import type { ComputedCalendarEvent } from "$lib/calendars";
 	import CalendarEventEditDialog from "../dialogs/CalendarEventEditDialog.svelte";

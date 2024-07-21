@@ -2,8 +2,8 @@
 	import { getContext } from "svelte";
 
 	import "@material/web/iconbutton/icon-button";
-	import DeleteIcon from "$lib/components/icons/DeleteIcon.svelte";
-	import EditIcon from "$lib/components/icons/EditIcon.svelte";
+	import DeleteIcon from "~icons/material-symbols/delete-rounded";
+	import EditIcon from "~icons/material-symbols/edit-rounded";
 
 	import type { Calendar } from "$lib/calendars";
 

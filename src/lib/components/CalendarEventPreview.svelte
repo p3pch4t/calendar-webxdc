@@ -14,14 +14,14 @@
 	import DeleteEventFab from "$lib/components/fabs/DeleteEventFab.svelte";
 	import EditEventFab from "$lib/components/fabs/EditEventFab.svelte";
 
-	import EventIcon from "$lib/components/icons/EventIcon.svelte";
-	import LocationIcon from "$lib/components/icons/LocationIcon.svelte";
-	import DescriptionIcon from "$lib/components/icons/DescriptionIcon.svelte";
-	import ScheduleIcon from "$lib/components/icons/ScheduleIcon.svelte";
-	import RecurrenceIcon from "$lib/components/icons/RecurrenceIcon.svelte";
+	import EventIcon from "~icons/material-symbols/event-rounded";
+	import LocationIcon from "~icons/material-symbols/location-on-outline-rounded";
+	import DescriptionIcon from "~icons/material-symbols/description-outline-rounded";
+	import ScheduleIcon from "~icons/material-symbols/schedule-outline-rounded";
+	import RecurrenceIcon from "~icons/material-symbols/event-repeat-rounded";
+	import ChevronLeftIcon from "~icons/material-symbols/chevron-left-rounded";
 
 	import type { Calendar, CalendarEvent } from "$lib/calendars";
-	import ChevronLeftIcon from "$lib/components/icons/ChevronLeftIcon.svelte";
 
 	export let event: CalendarEvent | undefined;
 	export let calendar: Calendar | undefined;

@@ -6,7 +6,7 @@
 
 	import "@material/web/textfield/filled-text-field";
 	import "@material/web/iconbutton/icon-button";
-	import ScheduleIcon from "$lib/components/icons/ScheduleIcon.svelte";
+	import ScheduleIcon from "~icons/material-symbols/schedule-outline-rounded";
 
 	import ModalTimePicker from "./ModalTimePicker.svelte";
 	import { tick } from "svelte";

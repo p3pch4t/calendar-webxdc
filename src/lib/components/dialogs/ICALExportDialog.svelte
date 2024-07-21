@@ -5,7 +5,7 @@
 	import { type MdDialog } from "@material/web/dialog/dialog";
 	import "@material/web/iconbutton/icon-button";
 	import "@material/web/button/text-button";
-	import DownloadIcon from "../icons/DownloadIcon.svelte";
+	import DownloadIcon from "~icons/material-symbols/download";
 
 	import Menu from "../Menu.svelte";
 	import MenuItem from "../MenuItem.svelte";

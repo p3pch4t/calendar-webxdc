@@ -22,8 +22,8 @@
 </script>
 
 <script lang="ts">
-	import DarkModeIcon from "$lib/components/icons/DarkModeIcon.svelte";
-	import LightModeIcon from "$lib/components/icons/LightModeIcon.svelte";
+	import DarkModeIcon from "~icons/material-symbols/dark-mode-outline-rounded";
+	import LightModeIcon from "~icons/material-symbols/light-mode-outline-rounded";
 
 	function toggleTheme() {
 		$darkMode = !$darkMode;

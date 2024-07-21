@@ -62,11 +62,11 @@
 	import "@material/web/iconbutton/icon-button";
 	import { type MdOutlinedTextField } from "@material/web/textfield/outlined-text-field";
 	import type { MdFilledTextField } from "@material/web/textfield/filled-text-field";
-	import ChevronLeftIcon from "$lib/components/icons/ChevronLeftIcon.svelte";
-	import ChevronRightIcon from "$lib/components/icons/ChevronRightIcon.svelte";
-	import CalendarTodayIcon from "$lib/components/icons/CalendarTodayIcon.svelte";
-	import EditIcon from "$lib/components/icons/EditIcon.svelte";
-	import ArrowDropDownIcon from "$lib/components/icons/ArrowDropDownIcon.svelte";
+	import ChevronLeftIcon from "~icons/material-symbols/chevron-left-rounded";
+	import ChevronRightIcon from "~icons/material-symbols/chevron-right-rounded";
+	import CalendarTodayIcon from "~icons/material-symbols/calendar-today-rounded";
+	import EditIcon from "~icons/material-symbols/edit-rounded";
+	import ArrowDropDownIcon from "~icons/material-symbols/arrow-drop-down-rounded";
 
 	import { monthNames, narrowWeekdayNames } from "$lib/shared";
 

@@ -8,7 +8,7 @@
 	import "@material/web/textfield/outlined-text-field";
 	import "@material/web/button/text-button";
 	import "@material/web/button/filled-tonal-button";
-	import DeleteIcon from "$lib/components/icons/DeleteIcon.svelte";
+	import DeleteIcon from "~icons/material-symbols/delete-rounded";
 
 	import { zonedDateTimeToICALJsonData, type ComputedCalendarEvent } from "$lib/calendars";
 	import { EventDeleteMode, type DeleteCalendarEventOptions } from "$lib/webxdc/shared";

@@ -36,7 +36,7 @@
 
 			& > .text {
 				& > [slot="icon"] {
-					stroke-width: 1.5em;
+					stroke-width: 1.5px;
 				}
 			}
 		}
@@ -66,7 +66,7 @@
 		&:hover {
 			& > .text {
 				& > [slot="icon"] {
-					stroke-width: 2em;
+					stroke-width: 1.5px;
 				}
 			}
 		}

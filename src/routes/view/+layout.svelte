@@ -7,12 +7,15 @@
 	import { setContext, getContext } from "svelte";
 	import { derived, writable } from "svelte/store";
 
-	import CalendarViewDayIcon from "$lib/components/icons/CalendarViewDayIcon.svelte";
-	import CalendarViewWeekIcon from "$lib/components/icons/CalendarViewWeekIcon.svelte";
-	import CalendarViewMonthIcon from "$lib/components/icons/CalendarViewMonthIcon.svelte";
-	import UploadIcon from "$lib/components/icons/UploadIcon.svelte";
-	import DownloadIcon from "$lib/components/icons/DownloadIcon.svelte";
-	import ListIcon from "$lib/components/icons/ListIcon.svelte";
+	import CalendarViewDayIcon from "~icons/material-symbols/calendar-view-day-outline-rounded";
+	import CalendarViewWeekIcon from "~icons/material-symbols/calendar-view-week-outline";
+	import CalendarViewMonthIcon from "~icons/material-symbols/calendar-view-month-outline";
+	import UploadIcon from "~icons/material-symbols/upload";
+	import DownloadIcon from "~icons/material-symbols/download";
+	import ListIcon from "~icons/material-symbols/list-alt-outline";
+	import MenuIcon from "~icons/material-symbols/menu-rounded";
+	import ChevronLeftIcon from "~icons/material-symbols/chevron-left-rounded";
+	import ChevronRightIcon from "~icons/material-symbols/chevron-right-rounded";
 
 	import NavigationTopAppBar from "$lib/components/navigation/NavigationTopAppBar.svelte";
 	import NavigationDrawer from "$lib/components/navigation/NavigationDrawer.svelte";
@@ -29,9 +32,6 @@
 
 	import { monthNames } from "$lib/shared";
 	import AddFab from "$lib/components/fabs/AddFab.svelte";
-	import MenuIcon from "$lib/components/icons/MenuIcon.svelte";
-	import ChevronLeftIcon from "$lib/components/icons/ChevronLeftIcon.svelte";
-	import ChevronRightIcon from "$lib/components/icons/ChevronRightIcon.svelte";
 
 	const currentView = setContext("currentView", writable("month"));
 

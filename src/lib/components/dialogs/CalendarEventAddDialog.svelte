@@ -11,7 +11,7 @@
 	import { type MdFilledTextField } from "@material/web/textfield/filled-text-field";
 	import "@material/web/checkbox/checkbox";
 	import { type MdDialog } from "@material/web/dialog/dialog";
-	import EventIcon from "$lib/components/icons/EventIcon.svelte";
+	import EventIcon from "~icons/material-symbols/event-rounded";
 
 	import DatePicker from "$lib/components/DatePicker.svelte";
 	import TimePicker from "$lib/components/TimePicker.svelte";

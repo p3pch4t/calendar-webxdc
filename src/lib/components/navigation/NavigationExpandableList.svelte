@@ -4,7 +4,7 @@
 	import "@material/web/list/list";
 	import "@material/web/divider/divider";
 	import NavigationDrawerButton from "./NavigationDrawerButton.svelte";
-	import KeyboardArrowArrowDown from "$lib/components/icons/KeyboardArrowArrowDown.svelte";
+	import KeyboardArrowArrowDown from "~icons/material-symbols/keyboard-arrow-down-rounded";
 
 	export let title: string;
 	let expanded = false;

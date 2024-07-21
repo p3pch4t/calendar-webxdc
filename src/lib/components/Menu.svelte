@@ -12,7 +12,7 @@
 	import { setContext, tick, onDestroy } from "svelte";
 
 	import "@material/web/textfield/filled-text-field";
-	import ArrowDropDownIcon from "./icons/ArrowDropDownIcon.svelte";
+	import ArrowDropDownIcon from "~icons/material-symbols/arrow-drop-down-rounded";
 
 	export let _class = "";
 	export { _class as class };

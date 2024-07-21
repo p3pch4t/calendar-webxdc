@@ -2,9 +2,9 @@
 	import { fade } from "svelte/transition";
 
 	import "@material/web/fab/fab";
-	import AddIcon from "$lib/components/icons/AddIcon.svelte";
-	import EventIcon from "$lib/components/icons/EventIcon.svelte";
-	import CalendarMonthIcon from "$lib/components/icons/CalendarMonthIcon.svelte";
+	import AddIcon from "~icons/material-symbols/add-rounded";
+	import EventIcon from "~icons/material-symbols/event-rounded";
+	import CalendarMonthIcon from "~icons/material-symbols/calendar-month-rounded";
 
 	import CalendarAddDialog from "../dialogs/CalendarAddDialog.svelte";
 	import CalendarEventAddDialog from "../dialogs/CalendarEventAddDialog.svelte";

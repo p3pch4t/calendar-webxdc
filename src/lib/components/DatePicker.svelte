@@ -6,7 +6,7 @@
 
 	import "@material/web/textfield/filled-text-field";
 	import "@material/web/iconbutton/icon-button";
-	import CalendarMonthIcon from "$lib/components/icons/CalendarMonthIcon.svelte";
+	import CalendarMonthIcon from "~icons/material-symbols/calendar-month-rounded";
 
 	import ModalDatePicker, { datePickerTextFieldHandler } from "./ModalDatePicker.svelte";
 	import type { MdFilledTextField } from "@material/web/textfield/filled-text-field";

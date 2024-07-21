@@ -7,7 +7,7 @@
 	import "@material/web/button/text-button";
 	import "@material/web/button/filled-tonal-button";
 	import { type MdFilledTextField } from "@material/web/textfield/filled-text-field";
-	import CalendarMonthIcon from "$lib/components/icons/CalendarMonthIcon.svelte";
+	import CalendarMonthIcon from "~icons/material-symbols/calendar-month-rounded";
 
 	import { generateRandomID, type Calendar } from "$lib/calendars";
 	import { bindValue } from "$lib/actions/bindValue";

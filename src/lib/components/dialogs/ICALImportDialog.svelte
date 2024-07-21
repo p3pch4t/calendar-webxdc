@@ -6,10 +6,10 @@
 	import { type MdDialog } from "@material/web/dialog/dialog";
 	import "@material/web/iconbutton/icon-button";
 	import "@material/web/button/text-button";
-	import UploadFileIcon from "$lib/components/icons/UploadFileIcon.svelte";
+	import UploadFileIcon from "~icons/material-symbols/upload-file-outline-rounded";
 
 	import { type Calendar, icalComponentToCalendar } from "$lib/calendars";
-	import UploadIcon from "../icons/UploadIcon.svelte";
+	import UploadIcon from "~icons/material-symbols/upload";
 
 	const calendarFunctions = getContext("calendarFunctions");
 
